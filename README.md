@@ -32,6 +32,7 @@ Create a model object by using the `model()` function. It takes the following ar
 It is assumed all tables have a primary key named `id` of type INT with auto increment.
 
 ```js
+var model = require('node-model.js');
 var User = model('users', ['name', 'email']);
 ```
 
