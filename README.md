@@ -1,5 +1,7 @@
 # model.js
 
+[![NPM version](https://badge.fury.io/js/node-model.js.svg)](http://badge.fury.io/js/node-model.js)
+
 model.js is a simple ORM (Object Relational Mapper) for use with Node.js and MySQL.
 
 ## Requirements
@@ -18,8 +20,8 @@ model.js is a simple ORM (Object Relational Mapper) for use with Node.js and MyS
 
 Create a model object by using the `model()` function. It takes the following arguments:
 
-- *tableName* - The name of the database table
-- *fields* - A list of field names not including `id`
+- `tableName` - The name of the database table
+- `fields` - A list of field names not including `id`
 
 It is assumed all tables have a primary key named `id` of type INT with auto increment.
 
@@ -131,7 +133,7 @@ var Post = model('posts', ['user_id', 'message']);
 model.oneToMany(User, Post, 'user', 'posts'); // childModelField becomes user_id
 ```
 
-Currently One To Many relationships are the only type of relationship implemented in model.js.
+Currently One-To-Many relationships are the only type of relationship implemented in model.js.
 
 ### Save related rows
 
