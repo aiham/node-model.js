@@ -14,6 +14,12 @@ model.js is a simple ORM (Object Relational Mapper) for use with Node.js and MyS
 [node-mysql]: https://github.com/felixge/node-mysql/
 [MySQL]: http://www.mysql.com/
 
+## Installation
+
+```sh
+npm install node-model.js
+```
+
 ## Usage
 
 ### Define models
