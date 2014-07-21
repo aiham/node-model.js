@@ -48,12 +48,16 @@ Use the `save()` function to save a row into the table. If the row has not been 
 
 ```js
 var john = new User(db, {name: 'John', email: 'john@example.com'});
-john.save();
+john.save(function () {
+
+  console.log(john.id);
+
+});
 ```
 
 ### Retrieve a row
 
-Use the `get()` function to retrieve a row from the table. Currently you can only retrieve rows by their `id`.`
+Use the `get()` function to retrieve a row from the table. Currently you can only retrieve rows by their `id`.
 
 ```js
 var user_id = 1;
