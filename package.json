@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/aiham/node-model.js",
   "dependencies": {
-    "mysql": "~2.4.1"
+    "mysql": "~2.18.1"
   }
 }
