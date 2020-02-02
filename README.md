@@ -2,6 +2,8 @@
 
 [![NPM version](https://badge.fury.io/js/node-model.js.svg)](http://badge.fury.io/js/node-model.js)
 
+**Note:** Not maintained.
+
 model.js is a simple ORM (Object Relational Mapper) for use with Node.js and MySQL.
 
 ## Requirements
